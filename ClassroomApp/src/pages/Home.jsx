@@ -14,7 +14,7 @@ function Home(){
                     </p>
 
                     <div className="space-x-6">
-                        <Link to="/signin">
+                        <Link to="/login">
                             <button className="border-2 border-emerald-500 bg-emerald-500 px-5 py-3 rounded-md font-semibold text-lg cursor-pointer hover:bg-emerald-600 transition-all ease-in-out duration-300 text-white">Get started</button>
                         </Link>
                         <Link to="/aboutus">
