@@ -61,7 +61,7 @@ function PageLayout({ children }){
                             )
                         }
                         <li><Link to="/aboutus">About Us</Link></li>
-                        <li><Link to="/contact">Contact Us</Link></li>
+                        <li><Link to="/contactus">Contact Us</Link></li>
                         <li><Link to="/courses">Classroom</Link></li>
                         {
                             !isLoggedIn ? (
