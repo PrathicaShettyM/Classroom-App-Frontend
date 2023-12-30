@@ -1,8 +1,4 @@
-
-import { Link} from "react-router-dom";
-
 import PageLayout from "../layout/PageLayout";
-
 
 function Register(){
 
@@ -59,7 +55,7 @@ function Register(){
                         />  
                         </div>
                         <button className="w-full mt-4 py-2 rounded bg-green-500 hover:bg-green-700 transition-all ease-in-out duration-300 font-semibold cursor-pointer text-lg">
-                            Create account
+                            Register user
                         </button>
                     </form>
                 </div>

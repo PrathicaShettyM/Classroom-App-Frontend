@@ -4,6 +4,7 @@ import {useDispatch, useSelector} from 'react-redux'
 import { Link, useNavigate } from "react-router-dom";
 
 import Footer from '../components/Footer'
+import { logout } from "../redux/slices/authSlice";
 
 function PageLayout({ children }){
 
@@ -26,11 +27,12 @@ function PageLayout({ children }){
         drawerSide[0].style.width = 'auto';
     }
 
-    function onLogout(e){
-        // todo
+    async function onLogout(e){
         e.preventDefault();
-        // todo
-        navigate("/");
+
+        const response = await dispatch(logout());
+        if(response?.payload?.data)
+            navigate("/");
     }
 
     return(
