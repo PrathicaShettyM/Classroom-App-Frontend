@@ -1,13 +1,13 @@
-
 import './App.css'
 
+import Footer from '../src/components/Footer'
 function App() {
 
-
   return (
-      <>
-       Page Layout
-      </>
+      <div>
+        hello
+        <Footer/>
+      </div>
   )
 }
 
