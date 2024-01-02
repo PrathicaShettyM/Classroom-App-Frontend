@@ -6,7 +6,7 @@ import { isEmail } from "../helper/regexMatcher";
 import PageLayout from "../layout/PageLayout";
 
 function Contact(){
-
+    
     const [userInput, setUserInput] = useState({
         name: "",
         email: "",

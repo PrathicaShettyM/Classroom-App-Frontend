@@ -19,6 +19,7 @@ function PageLayout({ children }){
         drawerSide[0].style.width = 'auto';
     }
 
+    // daiysi ui drawer component
     function hideDrawer(){
         const element = document.getElementsByClassName("drawer-toggle");
         element[0].checked = false;
@@ -27,6 +28,7 @@ function PageLayout({ children }){
         drawerSide[0].style.width = 'auto';
     }
 
+    // logout functionality
     async function onLogout(e){
         e.preventDefault();
 
